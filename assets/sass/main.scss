@@ -12,6 +12,14 @@ $theme-colors:(
     "verde": $verde
 ) !default;
 
+
+
+.btn{
+    background-color: $verde;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
 .centrado{
     text-align: center;
 }
@@ -24,9 +32,3 @@ $theme-colors:(
     color: $primary;
     font-weight: bolder;
 }
-
-.btn{
-    background-color: $verde;
-}
-
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
