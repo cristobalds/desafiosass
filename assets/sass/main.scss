@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+$font-family-base: 'Roboto Mono', monospace;
+
+$primary: teal;
+$secondary: beige;
+$verde: #038c67;
+
+$theme-colors:(
+    "primary": $primary,
+    "secondary": $secondary,
+    "verde": $verde
+) !default;
+
+.centrado{
+    text-align: center;
+}
+
+.card{
+    @extend .centrado;
+}
+
+.card-title{
+    color: $primary;
+    font-weight: bolder;
+}
+
+.btn{
+    background-color: $verde;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

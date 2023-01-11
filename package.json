@@ -1,0 +1,15 @@
+{
+  "name": "desafio4sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "dev": "node-sass assets/sass/main.scss assets/estilo.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "node-sass": "^8.0.0"
+  }
+}
